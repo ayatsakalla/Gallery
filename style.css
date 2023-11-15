@@ -3,12 +3,45 @@
     background-position: center center;
 }
 
+@font-face {
+    font-family: 'yeasty';
+    src: url('YeastyFlavorsRegular-yweyd.ttf');
+}
+
+
 body {
     width: 100%;
     height: 100%;
-    background-color: #3D0814;
+    font-family: 'yeasty';
+    background-color: #3D0814; 
+}
+
+.navbar-brand, .nav-link, .dropdown-item, .form-control {
+    color: #EFD6AC; 
 }
 
 .navbar {
-    background-color: #EFD6AC; 
+  background-color: #3D0814;  
+}
+
+p, a {
+    color: #995d42; 
+}
+
+footer {
+    background-color: #3D0814; 
+    color: #EFD6AC; 
+}
+
+ul.dropdown-menu, .form-control {
+    background-color: #995d42; 
+}
+
+.style {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #EFD6AC;
+}
+
+h1, .card-title {
+    color: #3D0814; 
 }
